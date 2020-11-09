@@ -7,6 +7,7 @@ gulp.task('serve', function() {
     server: {
       baseDir: "./"
     }
+
   });
 
   gulp.watch("*.html").on("change", reload);
